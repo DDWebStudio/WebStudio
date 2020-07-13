@@ -1,5 +1,4 @@
-const script_file = path_to_files + '/main.php',
-  tab_switchers = document.querySelectorAll('.switcher-item'),
+const tab_switchers = document.querySelectorAll('.switcher-item'),
   order_form = document.querySelector('.order-form'),
   tabs = document.querySelector('.content-canvas').children;
 
