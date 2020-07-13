@@ -638,6 +638,10 @@ header .menu__social a i {
   transition: color 150ms;
 }
 
+.pricing-wrapp .packs-wrapper .pack-switcher .switcher-item:hover {
+  color: #dad389;
+}
+
 .pricing-wrapp .packs-wrapper .pack-switcher .switcher-item:first-child {
   margin-right: 2.08333333vw;
 }
