@@ -677,17 +677,17 @@ header .menu__social a i {
   margin: 0 auto;
   position: relative;
   overflow: hidden;
-  -webkit-transition: height .2s;
-  transition: height .2s;
+  -webkit-transition: height .4s;
+  transition: height .4s;
 }
 
 .pricing-wrapp .packs-wrapper .content-wrapper .content-window .content-canvas {
   position: absolute;
-  -webkit-transition: -webkit-transform .2s ease-out;
-  transition: -webkit-transform .2s ease-out;
-  transition: transform .2s ease-out;
-  transition: transform .2s ease-out, -webkit-transform .2s ease-out;
-  transition: transform .2s ease-out,-webkit-transform .2s ease-out;
+  -webkit-transition: -webkit-transform .4s ease-out;
+  transition: -webkit-transform .4s ease-out;
+  transition: transform .4s ease-out;
+  transition: transform .4s ease-out, -webkit-transform .4s ease-out;
+  transition: transform .4s ease-out,-webkit-transform .4s ease-out;
 }
 
 .pricing-wrapp .packs-wrapper .content-wrapper .content-window .content-canvas .pack-list {
