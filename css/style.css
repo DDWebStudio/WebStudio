@@ -843,6 +843,8 @@ header .menu__social a i {
   letter-spacing: .05em;
   font-weight: 700;
   cursor: pointer;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .pricing-wrapp .packs-wrapper .content-wrapper .content-window .content-canvas .pack-list li .pack-footer .button:hover {
