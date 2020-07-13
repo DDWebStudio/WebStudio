@@ -387,7 +387,7 @@ header .menu__social a i {
 
 .main {
   height: 100vh;
-  background: url("../img/main-bg.jpg");
+  background: url("/WebStudio/img/main-bg.jpg");
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
