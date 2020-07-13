@@ -845,6 +845,11 @@ header .menu__social a i {
   cursor: pointer;
 }
 
+.pricing-wrapp .packs-wrapper .content-wrapper .content-window .content-canvas .pack-list li .pack-footer .button:hover {
+  color: #dad389;
+  background-color: #000;
+}
+
 .about {
   display: -webkit-box;
   display: -ms-flexbox;
