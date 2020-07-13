@@ -86,6 +86,9 @@
     margin-bottom: 20px;
     padding-bottom: 20px;
   }
+  header .menu {
+    position: relative;
+  }
   header .menu__links {
     display: none;
   }
@@ -105,7 +108,7 @@
   }
   .main h1 {
     font-size: calc(38px + (62 + 62 * 0.7)  * ((100vw - 320px) / 1920));
-    letter-spacing: 10px;
+    letter-spacing: 6px;
   }
   .main__line1 {
     width: 50%;
