@@ -339,13 +339,46 @@ header .menu__links a {
           align-items: center;
   font-family: 'Poppins', sans-serif;
   color: #a6a1a8;
+  position: relative;
+}
+
+header .menu__links a:before {
+  display: block;
+  position: absolute;
+  content: "";
+  height: 3px;
+  width: 0;
+  background-color: #172186;
+  -webkit-transition: width .5s ease-in-out, left .5s ease-in-out;
+  transition: width .5s ease-in-out, left .5s ease-in-out;
+  left: 0;
+  top: 0;
+}
+
+header .menu__links a:after {
+  display: block;
+  position: absolute;
+  content: "";
+  height: 3px;
+  width: 0;
+  background-color: #172186;
+  -webkit-transition: width .5s ease-in-out, left .5s ease-in-out;
+  transition: width .5s ease-in-out, left .5s ease-in-out;
+  right: 0;
+  bottom: 0;
 }
 
 header .menu__links a:hover {
   font-weight: bold;
   color: #172186;
-  border-top: 3px solid #172186;
-  border-bottom: 3px solid #172186;
+}
+
+header .menu__links a:hover:before {
+  width: 100%;
+}
+
+header .menu__links a:hover:after {
+  width: 100%;
 }
 
 header .menu__social {
@@ -468,6 +501,7 @@ header .menu__social a i {
   width: 25%;
   bottom: 20%;
   left: calc(50% - 12.5%);
+  z-index: -1;
 }
 
 .portfolio__wrapp {
@@ -518,6 +552,11 @@ header .menu__social a i {
   position: relative;
 }
 
+.portfolio-example a:hover img {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
 .portfolio-example a img {
   height: 100%;
   width: 100%;
@@ -526,6 +565,8 @@ header .menu__social a i {
   position: absolute;
   top: 0;
   left: 0;
+  -webkit-transition: 2s;
+  transition: 2s;
 }
 
 .portfolio-btn {
@@ -536,6 +577,14 @@ header .menu__social a i {
   color: #2e333c;
   padding: 1.04166667vw 3.125vw;
   border: 1px solid #2e333c;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.portfolio-btn:hover {
+  color: #ffffff;
+  background-color: #2e333c;
+  border: 1px solid #fff;
 }
 
 .pricing {
