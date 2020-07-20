@@ -1046,7 +1046,6 @@ header .menu__social a i {
 
 .contact__left {
   max-width: 615px;
-  height: 520px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1060,7 +1059,9 @@ header .menu__social a i {
 
 .contact__info-title {
   font-weight: normal;
-  color: #ffffff;
+  color: #dad389;
+  margin-bottom: 4vh;
+  margin-top: 4vh;
 }
 
 .contact__info-text {
@@ -1069,11 +1070,12 @@ header .menu__social a i {
 
 .contact__info a {
   color: #ffffff;
+  display: block;
+  margin-bottom: 2vh;
 }
 
 .contact__right {
   max-width: 615px;
-  height: 520px;
   background-color: #fff;
 }
 

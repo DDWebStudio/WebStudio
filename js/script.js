@@ -94,7 +94,7 @@ function portfolioSlider() {
   $('.portfolio-slider').slick({
     infinite: true,
     slidesToShow: 3,
-    slidesToScroll: 1,
+    slidesToScroll: 3,
     arrows: true,
     autoplay: true,
     responsive: [{
